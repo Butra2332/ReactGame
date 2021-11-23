@@ -1,0 +1,50 @@
+.item {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 3.5fr 5fr 1fr;
+    align-items: center;
+    width: 700px;
+    height: 70px;
+    margin: 0px auto;
+    padding: 0 70px;
+}
+.item:nth-child(even) {
+    background: rgba(254, 233, 231, 0.69);
+    border-top: 3px solid #810000;
+    border-bottom: 3px solid #810000;
+}
+.box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.number {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 64px;
+    color: #810000;
+    margin-bottom: auto;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    padding-right: 25px;
+}
+.images {
+    width: 100%;
+}
+.name {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 64px;
+    color: #810000;
+    margin-bottom: auto;
+}
+.point {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 64px;
+    color: #810000;
+    margin-bottom: auto;
+    text-align: right;
+}

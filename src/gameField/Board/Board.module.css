@@ -1,0 +1,33 @@
+.board__row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.status {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.square {
+    background: #FFD7D4;
+    border: 5px solid #810000;
+    float: left;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    color: #810000;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+

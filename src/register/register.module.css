@@ -1,0 +1,48 @@
+.form {
+    width: 436px;
+    border: 5px solid #810000;
+    border-radius: 30px;
+    margin: 10% auto;
+    padding: 65px 90px 50px 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link {
+    width: 215px;
+    height: 60px;  
+    background: #C63838;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    cursor: pointer;
+    color: #FEE9E7;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    margin: 30px 0 20px;
+    text-decoration: none;
+}
+.register__name {
+    width: 410px;
+    height: 56px;
+    border:none;
+    border-bottom: 5px solid #810000;
+    outline: none;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 26px;
+    color: #810000;
+    background-color: #FFD7D5;
+}
+.register__name::placeholder {
+    font-weight: 700;
+    font-size: 26px;
+    color: #810000;
+    background-color: #FFD7D5;
+}
+.span {
+    cursor: pointer;
+    color: #810000;
+}
